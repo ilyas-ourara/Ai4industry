@@ -108,5 +108,5 @@ def export_chunks_to_json(output_path: str = "output/chunks/chunks.json"):
 
 
 if __name__ == "__main__":
-    output_path = sys.argv[1] if len(sys.argv) > 1 else "output/chunks/chunks.json"
+    output_path = sys.argv[1] if len(sys.argv) > 1 else "output/chunks/chunks2.json"
     export_chunks_to_json(output_path)
