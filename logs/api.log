@@ -1,0 +1,54 @@
+2026-01-23 01:02:56.969 | INFO     | __main__:<module>:412 - 🚀 Starting server on 0.0.0.0:8000
+2026-01-23 01:02:57.687 | INFO     | api:lifespan:112 - 🚀 Starting RAG API server...
+2026-01-23 01:03:22.384 | INFO     | workflow.rag_workflow:load_existing_index:273 - Checking for existing indexed data...
+2026-01-23 01:03:22.388 | INFO     | agents.agent_2_context.embedding_service:__init__:32 - Initializing EmbeddingService with model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-23 01:03:22.851 | INFO     | agents.agent_2_context.vector_store:_initialize_chroma:64 - Initializing ChromaDB at: /home/ilyas-ourara/Bureau/M2/RAG_APPLICATION/project/data/chroma_db
+2026-01-23 01:03:23.237 | INFO     | agents.agent_2_context.vector_store:_initialize_chroma:80 - ChromaDB collection 'ddrm_documents' initialized with 444 existing documents
+2026-01-23 01:03:23.305 | INFO     | workflow.rag_workflow:load_existing_index:298 - Loaded 444 existing chunks from ChromaDB
+2026-01-23 01:03:23.306 | INFO     | api:lifespan:129 - ✅ Loaded existing index: 444 chunks from 0 documents
+2026-01-23 01:03:23.306 | INFO     | api:lifespan:136 - ✅ RAG API ready to serve requests
+2026-01-23 01:06:37.164 | INFO     | api:ask_question:259 - 📝 Question received: hello...
+2026-01-23 01:06:37.167 | INFO     | workflow.rag_workflow:query:145 - Processing query: hello...
+2026-01-23 01:06:37.167 | INFO     | workflow.rag_workflow:query_graph:67 - Building query graph...
+2026-01-23 01:06:37.169 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: search
+2026-01-23 01:06:37.172 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: synthesis
+2026-01-23 01:06:37.172 | DEBUG    | workflow.graph_builder:set_entry_point:123 - Set entry point: search
+2026-01-23 01:06:37.173 | DEBUG    | workflow.graph_builder:add_conditional_edge:108 - Added conditional edge from: search
+2026-01-23 01:06:37.175 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: synthesis -> END
+2026-01-23 01:06:37.178 | INFO     | workflow.graph_builder:build:139 - Building graph 'Query Pipeline' with 2 nodes, 1 edges
+2026-01-23 01:06:37.191 | INFO     | workflow.graph_builder:build:146 - Graph compiled successfully
+2026-01-23 01:06:37.199 | INFO     | workflow.nodes:search_node:128 - === Search Node ===
+2026-01-23 01:06:37.200 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-23 01:06:37.332 | INFO     | agents.agent_3_synthesis.llm_service:__init__:264 - Initialized Ollama service at http://localhost:11434 with model llama3.2:1b
+2026-01-23 01:06:37.332 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-23 01:06:37.333 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 444 chunks for BM25
+2026-01-23 01:06:37.404 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 444 documents
+2026-01-23 01:06:37.405 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 444 indexed chunks
+2026-01-23 01:06:37.411 | INFO     | workflow.nodes:search_node:165 - Search complete: 0 results found
+2026-01-23 01:06:37.416 | INFO     | api:ask_question:283 - ✅ Response generated in 0.25s
+2026-01-23 01:06:52.502 | INFO     | api:ask_question:259 - 📝 Question received: "Quelles sont les principales rivières concernées par le risque inondation dans la Vienne et quels t...
+2026-01-23 01:06:52.502 | INFO     | workflow.rag_workflow:query:145 - Processing query: "Quelles sont les principales rivières concernées ...
+2026-01-23 01:06:52.506 | INFO     | workflow.nodes:search_node:128 - === Search Node ===
+2026-01-23 01:06:52.507 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-23 01:06:52.534 | INFO     | agents.agent_3_synthesis.llm_service:__init__:264 - Initialized Ollama service at http://localhost:11434 with model llama3.2:1b
+2026-01-23 01:06:52.534 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-23 01:06:52.535 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 444 chunks for BM25
+2026-01-23 01:06:52.620 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 444 documents
+2026-01-23 01:06:52.621 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 444 indexed chunks
+2026-01-23 01:06:52.625 | INFO     | workflow.nodes:search_node:165 - Search complete: 3 results found
+2026-01-23 01:06:52.630 | INFO     | workflow.nodes:synthesis_node:188 - === Synthesis Node ===
+2026-01-23 01:06:52.630 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-23 01:06:52.643 | INFO     | agents.agent_3_synthesis.llm_service:__init__:264 - Initialized Ollama service at http://localhost:11434 with model llama3.2:1b
+2026-01-23 01:06:52.643 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-23 01:06:52.643 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 444 chunks for BM25
+2026-01-23 01:06:52.714 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 444 documents
+2026-01-23 01:06:52.715 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 444 indexed chunks
+2026-01-23 01:06:52.715 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:process:131 - Processing query: "Quelles sont les principales rivières concernées ...
+2026-01-23 01:06:52.717 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:_select_passages:244 - Selected 3 passages from 3 results
+2026-01-23 01:06:52.717 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:_synthesize:267 - Synthesizing answer with LLM...
+2026-01-23 01:08:52.838 | ERROR    | agents.agent_3_synthesis.llm_service:generate:310 - Ollama generation error: timed out
+2026-01-23 01:08:52.847 | ERROR    | agents.agent_3_synthesis.research_synthesis_agent:_synthesize:287 - LLM synthesis failed: timed out
+2026-01-23 01:08:52.858 | DEBUG    | core.base_agent:update_state:72 - State updated: last_result
+2026-01-23 01:08:52.860 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:process:172 - Synthesis complete: 3 citations, confidence: 1.00
+2026-01-23 01:08:52.865 | INFO     | workflow.nodes:synthesis_node:216 - Synthesis complete: confidence 1.0
+2026-01-23 01:08:52.875 | INFO     | api:ask_question:283 - ✅ Response generated in 120.37s

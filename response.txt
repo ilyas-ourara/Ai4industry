@@ -1,0 +1,43 @@
+question :  "Quels sont les risques naturels et technologiques majeurs recensés dans le département de la Vienne selon le DDRM ?",
+reponse :  
+
+
+
+question :"Quelles sont les principales rivières concernées par le risque inondation dans la Vienne et quels types d'inondations peuvent survenir ?"
+reponse :
+
+
+
+question :
+reponse :
+
+
+
+question :
+reponse :
+
+
+
+question :
+reponse :
+
+
+
+question :
+reponse :
+
+
+
+question :
+reponse :
+
+
+
+
+question :
+reponse :
+
+
+
+
+

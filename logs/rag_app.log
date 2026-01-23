@@ -1,0 +1,748 @@
+2026-01-20 16:51:13.307 | ERROR    | __main__:main:296 - Application error: No module named 'dotenv'
+2026-01-20 16:54:49.450 | ERROR    | __main__:main:296 - Application error: No module named 'dotenv'
+2026-01-20 16:55:51.434 | ERROR    | __main__:main:296 - Application error: No module named 'dotenv'
+2026-01-20 16:57:36.291 | ERROR    | __main__:main:296 - Application error: Docling is required for PDF extraction. Install with: pip install docling
+2026-01-20 16:58:29.963 | ERROR    | __main__:main:296 - Application error: Docling is required for PDF extraction. Install with: pip install docling
+2026-01-20 16:59:21.716 | ERROR    | __main__:main:296 - Application error: Docling is required for PDF extraction. Install with: pip install docling
+2026-01-20 17:00:16.837 | ERROR    | __main__:main:296 - Application error: Docling is required for PDF extraction. Install with: pip install docling
+2026-01-20 17:02:05.397 | ERROR    | __main__:main:296 - Application error: Docling is required for PDF extraction. Install with: pip install docling
+2026-01-20 17:07:59.602 | ERROR    | __main__:main:296 - Application error: Docling is required for PDF extraction. Install with: pip install docling
+2026-01-20 17:15:35.968 | INFO     | __main__:index_documents:41 - Indexing 1 documents...
+2026-01-20 17:15:35.969 | INFO     | workflow.rag_workflow:index_documents:92 - Starting document indexing...
+2026-01-20 17:15:35.969 | INFO     | workflow.rag_workflow:indexing_graph:75 - Building indexing graph...
+2026-01-20 17:15:35.971 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: extraction
+2026-01-20 17:15:35.971 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: context_construction
+2026-01-20 17:15:35.971 | DEBUG    | workflow.graph_builder:set_entry_point:123 - Set entry point: extraction
+2026-01-20 17:15:35.971 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: extraction -> context_construction
+2026-01-20 17:15:35.971 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: context_construction -> END
+2026-01-20 17:15:35.971 | INFO     | workflow.graph_builder:build:139 - Building graph 'Indexing Pipeline' with 2 nodes, 2 edges
+2026-01-20 17:15:35.977 | INFO     | workflow.graph_builder:build:146 - Graph compiled successfully
+2026-01-20 17:15:35.979 | INFO     | workflow.nodes:extraction_node:26 - === Extraction Node (Docling) ===
+2026-01-20 17:15:35.983 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:__init__:83 - PDFExtractionAgent initialized (output: /home/ilyas-ourara/Bureau/M2/RAG_APPLICATION/project/output/markdown)
+2026-01-20 17:15:35.984 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:process:126 - Starting PDF extraction process (Docling)
+2026-01-20 17:15:35.985 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:_extract_single_pdf:169 - Extracting PDF: data/DDRM_vienne_86.pdf
+2026-01-20 17:18:10.121 | INFO     | __main__:index_documents:41 - Indexing 1 documents...
+2026-01-20 17:18:10.121 | INFO     | workflow.rag_workflow:index_documents:92 - Starting document indexing...
+2026-01-20 17:18:10.122 | INFO     | workflow.rag_workflow:indexing_graph:75 - Building indexing graph...
+2026-01-20 17:18:10.123 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: extraction
+2026-01-20 17:18:10.123 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: context_construction
+2026-01-20 17:18:10.123 | DEBUG    | workflow.graph_builder:set_entry_point:123 - Set entry point: extraction
+2026-01-20 17:18:10.123 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: extraction -> context_construction
+2026-01-20 17:18:10.124 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: context_construction -> END
+2026-01-20 17:18:10.124 | INFO     | workflow.graph_builder:build:139 - Building graph 'Indexing Pipeline' with 2 nodes, 2 edges
+2026-01-20 17:18:10.129 | INFO     | workflow.graph_builder:build:146 - Graph compiled successfully
+2026-01-20 17:18:10.131 | INFO     | workflow.nodes:extraction_node:26 - === Extraction Node (Docling) ===
+2026-01-20 17:18:10.133 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:__init__:83 - PDFExtractionAgent initialized (output: /home/ilyas-ourara/Bureau/M2/RAG_APPLICATION/project/output/markdown)
+2026-01-20 17:18:10.133 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:process:126 - Starting PDF extraction process (Docling)
+2026-01-20 17:18:10.133 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:_extract_single_pdf:169 - Extracting PDF: data/DDRM_vienne_86.pdf
+2026-01-20 17:22:36.348 | INFO     | __main__:index_documents:41 - Indexing 1 documents...
+2026-01-20 17:22:36.349 | INFO     | workflow.rag_workflow:index_documents:92 - Starting document indexing...
+2026-01-20 17:22:36.349 | INFO     | workflow.rag_workflow:indexing_graph:75 - Building indexing graph...
+2026-01-20 17:22:36.350 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: extraction
+2026-01-20 17:22:36.350 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: context_construction
+2026-01-20 17:22:36.351 | DEBUG    | workflow.graph_builder:set_entry_point:123 - Set entry point: extraction
+2026-01-20 17:22:36.351 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: extraction -> context_construction
+2026-01-20 17:22:36.351 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: context_construction -> END
+2026-01-20 17:22:36.351 | INFO     | workflow.graph_builder:build:139 - Building graph 'Indexing Pipeline' with 2 nodes, 2 edges
+2026-01-20 17:22:36.357 | INFO     | workflow.graph_builder:build:146 - Graph compiled successfully
+2026-01-20 17:22:36.360 | INFO     | workflow.nodes:extraction_node:26 - === Extraction Node (Docling) ===
+2026-01-20 17:22:36.364 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:__init__:83 - PDFExtractionAgent initialized (output: /home/ilyas-ourara/Bureau/M2/RAG_APPLICATION/project/output/markdown)
+2026-01-20 17:22:36.364 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:process:126 - Starting PDF extraction process (Docling)
+2026-01-20 17:22:36.365 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:_extract_single_pdf:169 - Extracting PDF: data/DDRM_vienne_86.pdf
+2026-01-20 17:27:51.742 | INFO     | __main__:index_documents:41 - Indexing 1 documents...
+2026-01-20 17:27:51.746 | INFO     | workflow.rag_workflow:index_documents:92 - Starting document indexing...
+2026-01-20 17:27:51.747 | INFO     | workflow.rag_workflow:indexing_graph:75 - Building indexing graph...
+2026-01-20 17:27:51.748 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: extraction
+2026-01-20 17:27:51.749 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: context_construction
+2026-01-20 17:27:51.753 | DEBUG    | workflow.graph_builder:set_entry_point:123 - Set entry point: extraction
+2026-01-20 17:27:51.753 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: extraction -> context_construction
+2026-01-20 17:27:51.753 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: context_construction -> END
+2026-01-20 17:27:51.753 | INFO     | workflow.graph_builder:build:139 - Building graph 'Indexing Pipeline' with 2 nodes, 2 edges
+2026-01-20 17:27:51.772 | INFO     | workflow.graph_builder:build:146 - Graph compiled successfully
+2026-01-20 17:27:51.778 | INFO     | workflow.nodes:extraction_node:26 - === Extraction Node (Docling) ===
+2026-01-20 17:27:51.781 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:__init__:83 - PDFExtractionAgent initialized (output: /home/ilyas-ourara/Bureau/M2/RAG_APPLICATION/project/output/markdown)
+2026-01-20 17:27:51.781 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:process:126 - Starting PDF extraction process (Docling)
+2026-01-20 17:27:51.781 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:_extract_single_pdf:169 - Extracting PDF: data/DDRM_vienne_86.pdf
+2026-01-20 17:30:19.730 | INFO     | __main__:index_documents:41 - Indexing 1 documents...
+2026-01-20 17:30:19.734 | INFO     | workflow.rag_workflow:index_documents:92 - Starting document indexing...
+2026-01-20 17:30:19.735 | INFO     | workflow.rag_workflow:indexing_graph:75 - Building indexing graph...
+2026-01-20 17:30:19.738 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: extraction
+2026-01-20 17:30:19.738 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: context_construction
+2026-01-20 17:30:19.739 | DEBUG    | workflow.graph_builder:set_entry_point:123 - Set entry point: extraction
+2026-01-20 17:30:19.739 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: extraction -> context_construction
+2026-01-20 17:30:19.739 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: context_construction -> END
+2026-01-20 17:30:19.739 | INFO     | workflow.graph_builder:build:139 - Building graph 'Indexing Pipeline' with 2 nodes, 2 edges
+2026-01-20 17:30:19.753 | INFO     | workflow.graph_builder:build:146 - Graph compiled successfully
+2026-01-20 17:30:19.758 | INFO     | workflow.nodes:extraction_node:26 - === Extraction Node (Docling) ===
+2026-01-20 17:30:19.764 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:__init__:83 - PDFExtractionAgent initialized (output: /home/ilyas-ourara/Bureau/M2/RAG_APPLICATION/project/output/markdown)
+2026-01-20 17:30:19.765 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:process:126 - Starting PDF extraction process (Docling)
+2026-01-20 17:30:19.765 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:_extract_single_pdf:169 - Extracting PDF: data/DDRM_vienne_86.pdf
+2026-01-20 17:42:45.082 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:_save_markdown:251 - Saved Markdown: /home/ilyas-ourara/Bureau/M2/RAG_APPLICATION/project/output/markdown/DDRM_vienne_86.md
+2026-01-20 17:42:45.107 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:process:144 - ✓ Extracted: DDRM_vienne_86.pdf (745.32s)
+2026-01-20 17:42:45.107 | DEBUG    | core.base_agent:update_state:72 - State updated: extraction_results
+2026-01-20 17:42:45.107 | DEBUG    | core.base_agent:update_state:72 - State updated: markdown_files
+2026-01-20 17:42:45.107 | INFO     | workflow.nodes:extraction_node:50 - Extraction complete: 1/1 documents processed
+2026-01-20 17:42:45.110 | INFO     | workflow.nodes:context_construction_node:74 - === Context Construction Node ===
+2026-01-20 17:42:45.111 | INFO     | agents.agent_2_context.embedding_service:__init__:32 - Initializing EmbeddingService with model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-20 17:42:45.834 | INFO     | agents.agent_2_context.vector_store:_initialize_chroma:65 - Initializing ChromaDB at: /home/ilyas-ourara/Bureau/M2/RAG_APPLICATION/project/data/chroma_db
+2026-01-20 17:42:45.837 | ERROR    | agents.agent_2_context.vector_store:_initialize_chroma:93 - ChromaDB initialization failed: [91mYou are using a deprecated configuration of Chroma.
+
+[94mIf you do not have data you wish to migrate, you only need to change how you construct
+your Chroma client. Please see the "New Clients" section of https://docs.trychroma.com/deployment/migration.
+________________________________________________________________________________________________
+
+If you do have data you wish to migrate, we have a migration tool you can use in order to
+migrate your data to the new Chroma architecture.
+Please `pip install chroma-migrate` and run `chroma-migrate` to migrate your data and then
+change how you construct your Chroma client.
+
+See https://docs.trychroma.com/deployment/migration for more information or join our discord at https://discord.gg/MMeYNTmh3x for help![0m
+2026-01-20 17:42:45.838 | ERROR    | workflow.nodes:context_construction_node:108 - Context construction failed: [91mYou are using a deprecated configuration of Chroma.
+
+[94mIf you do not have data you wish to migrate, you only need to change how you construct
+your Chroma client. Please see the "New Clients" section of https://docs.trychroma.com/deployment/migration.
+________________________________________________________________________________________________
+
+If you do have data you wish to migrate, we have a migration tool you can use in order to
+migrate your data to the new Chroma architecture.
+Please `pip install chroma-migrate` and run `chroma-migrate` to migrate your data and then
+change how you construct your Chroma client.
+
+See https://docs.trychroma.com/deployment/migration for more information or join our discord at https://discord.gg/MMeYNTmh3x for help![0m
+2026-01-20 17:42:45.839 | INFO     | workflow.rag_workflow:index_documents:123 - Indexing complete: 0 documents, 0 chunks
+2026-01-21 14:20:34.122 | INFO     | workflow.rag_workflow:load_existing_index:272 - Checking for existing indexed data...
+2026-01-21 14:20:34.125 | INFO     | agents.agent_2_context.embedding_service:__init__:32 - Initializing EmbeddingService with model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-21 14:20:34.604 | INFO     | agents.agent_2_context.vector_store:_initialize_chroma:64 - Initializing ChromaDB at: /home/ilyas-ourara/Bureau/M2/RAG_APPLICATION/project/data/chroma_db
+2026-01-21 14:20:34.842 | INFO     | agents.agent_2_context.vector_store:_initialize_chroma:80 - ChromaDB collection 'ddrm_documents' initialized with 178 existing documents
+2026-01-21 14:20:34.897 | INFO     | workflow.rag_workflow:load_existing_index:297 - Loaded 178 existing chunks from ChromaDB
+2026-01-21 14:20:38.270 | INFO     | __main__:query_documents:68 - Processing query: hell0...
+2026-01-21 14:20:38.271 | INFO     | workflow.rag_workflow:query:145 - Processing query: hell0...
+2026-01-21 14:20:38.271 | INFO     | workflow.rag_workflow:query_graph:67 - Building query graph...
+2026-01-21 14:20:38.272 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: search
+2026-01-21 14:20:38.272 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: synthesis
+2026-01-21 14:20:38.273 | DEBUG    | workflow.graph_builder:set_entry_point:123 - Set entry point: search
+2026-01-21 14:20:38.273 | DEBUG    | workflow.graph_builder:add_conditional_edge:108 - Added conditional edge from: search
+2026-01-21 14:20:38.273 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: synthesis -> END
+2026-01-21 14:20:38.273 | INFO     | workflow.graph_builder:build:139 - Building graph 'Query Pipeline' with 2 nodes, 1 edges
+2026-01-21 14:20:38.282 | INFO     | workflow.graph_builder:build:146 - Graph compiled successfully
+2026-01-21 14:20:38.285 | INFO     | workflow.nodes:search_node:128 - === Search Node ===
+2026-01-21 14:20:38.285 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-21 14:20:38.285 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-21 14:20:38.286 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 178 chunks for BM25
+2026-01-21 14:20:38.320 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 178 documents
+2026-01-21 14:20:38.320 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 178 indexed chunks
+2026-01-21 14:20:38.321 | INFO     | workflow.nodes:search_node:164 - Search complete: 0 results found
+2026-01-21 14:20:59.598 | INFO     | __main__:query_documents:68 - Processing query: quel sont les risques dans la vienne...
+2026-01-21 14:20:59.599 | INFO     | workflow.rag_workflow:query:145 - Processing query: quel sont les risques dans la vienne...
+2026-01-21 14:20:59.603 | INFO     | workflow.nodes:search_node:128 - === Search Node ===
+2026-01-21 14:20:59.604 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-21 14:20:59.605 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-21 14:20:59.605 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 178 chunks for BM25
+2026-01-21 14:20:59.715 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 178 documents
+2026-01-21 14:20:59.717 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 178 indexed chunks
+2026-01-21 14:20:59.718 | INFO     | workflow.nodes:search_node:164 - Search complete: 5 results found
+2026-01-21 14:20:59.722 | INFO     | workflow.nodes:synthesis_node:187 - === Synthesis Node ===
+2026-01-21 14:20:59.722 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-21 14:20:59.723 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-21 14:20:59.724 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 178 chunks for BM25
+2026-01-21 14:20:59.763 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 178 documents
+2026-01-21 14:20:59.764 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 178 indexed chunks
+2026-01-21 14:20:59.765 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:process:131 - Processing query: quel sont les risques dans la vienne...
+2026-01-21 14:20:59.766 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:_select_passages:244 - Selected 5 passages from 5 results
+2026-01-21 14:20:59.768 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:_synthesize:267 - Synthesizing answer with LLM...
+2026-01-21 14:20:59.769 | INFO     | agents.agent_3_synthesis.llm_service:generate:371 - MockLLMService: Generating mock response
+2026-01-21 14:20:59.769 | DEBUG    | core.base_agent:update_state:72 - State updated: last_result
+2026-01-21 14:20:59.769 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:process:172 - Synthesis complete: 5 citations, confidence: 1.00
+2026-01-21 14:20:59.770 | INFO     | workflow.nodes:synthesis_node:214 - Synthesis complete: confidence 1.0
+2026-01-21 14:21:36.598 | INFO     | __main__:query_documents:68 - Processing query: sous forme de texte...
+2026-01-21 14:21:36.599 | INFO     | workflow.rag_workflow:query:145 - Processing query: sous forme de texte...
+2026-01-21 14:21:36.607 | INFO     | workflow.nodes:search_node:128 - === Search Node ===
+2026-01-21 14:21:36.608 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-21 14:21:36.609 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-21 14:21:36.609 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 178 chunks for BM25
+2026-01-21 14:21:36.735 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 178 documents
+2026-01-21 14:21:36.736 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 178 indexed chunks
+2026-01-21 14:21:36.737 | INFO     | workflow.nodes:search_node:164 - Search complete: 5 results found
+2026-01-21 14:21:36.739 | INFO     | workflow.nodes:synthesis_node:187 - === Synthesis Node ===
+2026-01-21 14:21:36.739 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-21 14:21:36.739 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-21 14:21:36.739 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 178 chunks for BM25
+2026-01-21 14:21:36.772 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 178 documents
+2026-01-21 14:21:36.772 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 178 indexed chunks
+2026-01-21 14:21:36.773 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:process:131 - Processing query: sous forme de texte...
+2026-01-21 14:21:36.773 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:_select_passages:244 - Selected 5 passages from 5 results
+2026-01-21 14:21:36.773 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:_synthesize:267 - Synthesizing answer with LLM...
+2026-01-21 14:21:36.774 | INFO     | agents.agent_3_synthesis.llm_service:generate:371 - MockLLMService: Generating mock response
+2026-01-21 14:21:36.774 | DEBUG    | core.base_agent:update_state:72 - State updated: last_result
+2026-01-21 14:21:36.774 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:process:172 - Synthesis complete: 5 citations, confidence: 1.00
+2026-01-21 14:21:36.774 | INFO     | workflow.nodes:synthesis_node:214 - Synthesis complete: confidence 1.0
+2026-01-21 14:22:46.779 | INFO     | __main__:query_documents:68 - Processing query: Quels sont les risques naturels dans la Vienne?...
+2026-01-21 14:22:46.781 | INFO     | workflow.rag_workflow:query:145 - Processing query: Quels sont les risques naturels dans la Vienne?...
+2026-01-21 14:22:46.786 | INFO     | workflow.nodes:search_node:128 - === Search Node ===
+2026-01-21 14:22:46.788 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-21 14:22:46.790 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-21 14:22:46.791 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 178 chunks for BM25
+2026-01-21 14:22:46.896 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 178 documents
+2026-01-21 14:22:46.897 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 178 indexed chunks
+2026-01-21 14:22:46.898 | INFO     | workflow.nodes:search_node:164 - Search complete: 5 results found
+2026-01-21 14:22:46.900 | INFO     | workflow.nodes:synthesis_node:187 - === Synthesis Node ===
+2026-01-21 14:22:46.901 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-21 14:22:46.901 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-21 14:22:46.902 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 178 chunks for BM25
+2026-01-21 14:22:46.940 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 178 documents
+2026-01-21 14:22:46.941 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 178 indexed chunks
+2026-01-21 14:22:46.941 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:process:131 - Processing query: Quels sont les risques naturels dans la Vienne?...
+2026-01-21 14:22:46.942 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:_select_passages:244 - Selected 5 passages from 5 results
+2026-01-21 14:22:46.942 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:_synthesize:267 - Synthesizing answer with LLM...
+2026-01-21 14:22:46.942 | INFO     | agents.agent_3_synthesis.llm_service:generate:371 - MockLLMService: Generating mock response
+2026-01-21 14:22:46.942 | DEBUG    | core.base_agent:update_state:72 - State updated: last_result
+2026-01-21 14:22:46.943 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:process:172 - Synthesis complete: 5 citations, confidence: 1.00
+2026-01-21 14:22:46.943 | INFO     | workflow.nodes:synthesis_node:214 - Synthesis complete: confidence 1.0
+2026-01-21 14:29:41.632 | INFO     | workflow.rag_workflow:load_existing_index:272 - Checking for existing indexed data...
+2026-01-21 14:29:41.635 | INFO     | agents.agent_2_context.embedding_service:__init__:32 - Initializing EmbeddingService with model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-21 14:29:42.049 | INFO     | agents.agent_2_context.vector_store:_initialize_chroma:64 - Initializing ChromaDB at: /home/ilyas-ourara/Bureau/M2/RAG_APPLICATION/project/data/chroma_db
+2026-01-21 14:29:42.361 | INFO     | agents.agent_2_context.vector_store:_initialize_chroma:80 - ChromaDB collection 'ddrm_documents' initialized with 178 existing documents
+2026-01-21 14:29:42.392 | INFO     | workflow.rag_workflow:load_existing_index:297 - Loaded 178 existing chunks from ChromaDB
+2026-01-21 14:29:45.671 | INFO     | __main__:query_documents:68 - Processing query: hello...
+2026-01-21 14:29:45.672 | INFO     | workflow.rag_workflow:query:145 - Processing query: hello...
+2026-01-21 14:29:45.673 | INFO     | workflow.rag_workflow:query_graph:67 - Building query graph...
+2026-01-21 14:29:45.677 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: search
+2026-01-21 14:29:45.679 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: synthesis
+2026-01-21 14:29:45.680 | DEBUG    | workflow.graph_builder:set_entry_point:123 - Set entry point: search
+2026-01-21 14:29:45.681 | DEBUG    | workflow.graph_builder:add_conditional_edge:108 - Added conditional edge from: search
+2026-01-21 14:29:45.682 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: synthesis -> END
+2026-01-21 14:29:45.682 | INFO     | workflow.graph_builder:build:139 - Building graph 'Query Pipeline' with 2 nodes, 1 edges
+2026-01-21 14:29:45.719 | INFO     | workflow.graph_builder:build:146 - Graph compiled successfully
+2026-01-21 14:29:45.725 | INFO     | workflow.nodes:search_node:128 - === Search Node ===
+2026-01-21 14:29:45.726 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-21 14:29:45.727 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-21 14:29:45.728 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 178 chunks for BM25
+2026-01-21 14:29:45.820 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 178 documents
+2026-01-21 14:29:45.820 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 178 indexed chunks
+2026-01-21 14:29:45.821 | INFO     | workflow.nodes:search_node:164 - Search complete: 0 results found
+2026-01-21 14:29:56.870 | INFO     | __main__:query_documents:68 - Processing query: quels sont les risques de vienne...
+2026-01-21 14:29:56.872 | INFO     | workflow.rag_workflow:query:145 - Processing query: quels sont les risques de vienne...
+2026-01-21 14:29:56.879 | INFO     | workflow.nodes:search_node:128 - === Search Node ===
+2026-01-21 14:29:56.882 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-21 14:29:56.883 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-21 14:29:56.883 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 178 chunks for BM25
+2026-01-21 14:29:57.010 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 178 documents
+2026-01-21 14:29:57.010 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 178 indexed chunks
+2026-01-21 14:29:57.012 | INFO     | workflow.nodes:search_node:164 - Search complete: 5 results found
+2026-01-21 14:29:57.015 | INFO     | workflow.nodes:synthesis_node:187 - === Synthesis Node ===
+2026-01-21 14:29:57.015 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-21 14:29:57.015 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-21 14:29:57.015 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 178 chunks for BM25
+2026-01-21 14:29:57.055 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 178 documents
+2026-01-21 14:29:57.056 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 178 indexed chunks
+2026-01-21 14:29:57.057 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:process:131 - Processing query: quels sont les risques de vienne...
+2026-01-21 14:29:57.058 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:_select_passages:244 - Selected 5 passages from 5 results
+2026-01-21 14:29:57.059 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:_synthesize:267 - Synthesizing answer with LLM...
+2026-01-21 14:29:57.060 | INFO     | agents.agent_3_synthesis.llm_service:generate:372 - MockLLMService: Generating contextual response
+2026-01-21 14:29:57.061 | DEBUG    | core.base_agent:update_state:72 - State updated: last_result
+2026-01-21 14:29:57.061 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:process:172 - Synthesis complete: 5 citations, confidence: 1.00
+2026-01-21 14:29:57.062 | INFO     | workflow.nodes:synthesis_node:214 - Synthesis complete: confidence 1.0
+2026-01-21 14:30:35.719 | INFO     | workflow.rag_workflow:load_existing_index:272 - Checking for existing indexed data...
+2026-01-21 14:30:35.722 | INFO     | agents.agent_2_context.embedding_service:__init__:32 - Initializing EmbeddingService with model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-21 14:30:36.159 | INFO     | agents.agent_2_context.vector_store:_initialize_chroma:64 - Initializing ChromaDB at: /home/ilyas-ourara/Bureau/M2/RAG_APPLICATION/project/data/chroma_db
+2026-01-21 14:30:36.402 | INFO     | agents.agent_2_context.vector_store:_initialize_chroma:80 - ChromaDB collection 'ddrm_documents' initialized with 178 existing documents
+2026-01-21 14:30:36.447 | INFO     | workflow.rag_workflow:load_existing_index:297 - Loaded 178 existing chunks from ChromaDB
+2026-01-21 14:30:43.271 | INFO     | __main__:query_documents:68 - Processing query: hello...
+2026-01-21 14:30:43.272 | INFO     | workflow.rag_workflow:query:145 - Processing query: hello...
+2026-01-21 14:30:43.273 | INFO     | workflow.rag_workflow:query_graph:67 - Building query graph...
+2026-01-21 14:30:43.277 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: search
+2026-01-21 14:30:43.280 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: synthesis
+2026-01-21 14:30:43.281 | DEBUG    | workflow.graph_builder:set_entry_point:123 - Set entry point: search
+2026-01-21 14:30:43.283 | DEBUG    | workflow.graph_builder:add_conditional_edge:108 - Added conditional edge from: search
+2026-01-21 14:30:43.284 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: synthesis -> END
+2026-01-21 14:30:43.284 | INFO     | workflow.graph_builder:build:139 - Building graph 'Query Pipeline' with 2 nodes, 1 edges
+2026-01-21 14:30:43.317 | INFO     | workflow.graph_builder:build:146 - Graph compiled successfully
+2026-01-21 14:30:43.327 | INFO     | workflow.nodes:search_node:128 - === Search Node ===
+2026-01-21 14:30:43.328 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-21 14:30:43.329 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-21 14:30:43.330 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 178 chunks for BM25
+2026-01-21 14:30:43.430 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 178 documents
+2026-01-21 14:30:43.431 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 178 indexed chunks
+2026-01-21 14:30:43.431 | INFO     | workflow.nodes:search_node:164 - Search complete: 0 results found
+2026-01-21 14:30:53.939 | INFO     | __main__:query_documents:68 - Processing query: les risques de vienne...
+2026-01-21 14:30:53.940 | INFO     | workflow.rag_workflow:query:145 - Processing query: les risques de vienne...
+2026-01-21 14:30:53.946 | INFO     | workflow.nodes:search_node:128 - === Search Node ===
+2026-01-21 14:30:53.947 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-21 14:30:53.948 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-21 14:30:53.949 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 178 chunks for BM25
+2026-01-21 14:30:54.062 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 178 documents
+2026-01-21 14:30:54.062 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 178 indexed chunks
+2026-01-21 14:30:54.064 | INFO     | workflow.nodes:search_node:164 - Search complete: 5 results found
+2026-01-21 14:30:54.067 | INFO     | workflow.nodes:synthesis_node:187 - === Synthesis Node ===
+2026-01-21 14:30:54.069 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-21 14:30:54.069 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-21 14:30:54.070 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 178 chunks for BM25
+2026-01-21 14:30:54.108 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 178 documents
+2026-01-21 14:30:54.109 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 178 indexed chunks
+2026-01-21 14:30:54.109 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:process:131 - Processing query: les risques de vienne...
+2026-01-21 14:30:54.110 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:_select_passages:244 - Selected 5 passages from 5 results
+2026-01-21 14:30:54.110 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:_synthesize:267 - Synthesizing answer with LLM...
+2026-01-21 14:30:54.111 | INFO     | agents.agent_3_synthesis.llm_service:generate:372 - MockLLMService: Generating contextual response
+2026-01-21 14:30:54.111 | DEBUG    | core.base_agent:update_state:72 - State updated: last_result
+2026-01-21 14:30:54.112 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:process:172 - Synthesis complete: 5 citations, confidence: 1.00
+2026-01-21 14:30:54.112 | INFO     | workflow.nodes:synthesis_node:214 - Synthesis complete: confidence 1.0
+2026-01-21 14:34:46.512 | INFO     | workflow.rag_workflow:load_existing_index:272 - Checking for existing indexed data...
+2026-01-21 14:34:46.514 | INFO     | agents.agent_2_context.embedding_service:__init__:32 - Initializing EmbeddingService with model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-21 14:34:46.846 | INFO     | agents.agent_2_context.vector_store:_initialize_chroma:64 - Initializing ChromaDB at: /home/ilyas-ourara/Bureau/M2/RAG_APPLICATION/project/data/chroma_db
+2026-01-21 14:34:47.072 | INFO     | agents.agent_2_context.vector_store:_initialize_chroma:80 - ChromaDB collection 'ddrm_documents' initialized with 178 existing documents
+2026-01-21 14:34:47.099 | INFO     | workflow.rag_workflow:load_existing_index:297 - Loaded 178 existing chunks from ChromaDB
+2026-01-21 14:34:49.471 | INFO     | __main__:query_documents:68 - Processing query: hello...
+2026-01-21 14:34:49.472 | INFO     | workflow.rag_workflow:query:145 - Processing query: hello...
+2026-01-21 14:34:49.472 | INFO     | workflow.rag_workflow:query_graph:67 - Building query graph...
+2026-01-21 14:34:49.475 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: search
+2026-01-21 14:34:49.476 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: synthesis
+2026-01-21 14:34:49.477 | DEBUG    | workflow.graph_builder:set_entry_point:123 - Set entry point: search
+2026-01-21 14:34:49.478 | DEBUG    | workflow.graph_builder:add_conditional_edge:108 - Added conditional edge from: search
+2026-01-21 14:34:49.479 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: synthesis -> END
+2026-01-21 14:34:49.479 | INFO     | workflow.graph_builder:build:139 - Building graph 'Query Pipeline' with 2 nodes, 1 edges
+2026-01-21 14:34:49.503 | INFO     | workflow.graph_builder:build:146 - Graph compiled successfully
+2026-01-21 14:34:49.507 | INFO     | workflow.nodes:search_node:128 - === Search Node ===
+2026-01-21 14:34:49.508 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-21 14:34:49.509 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-21 14:34:49.509 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 178 chunks for BM25
+2026-01-21 14:34:49.608 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 178 documents
+2026-01-21 14:34:49.609 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 178 indexed chunks
+2026-01-21 14:34:49.610 | INFO     | workflow.nodes:search_node:164 - Search complete: 0 results found
+2026-01-21 14:34:57.393 | INFO     | __main__:query_documents:68 - Processing query: les risques de vienne...
+2026-01-21 14:34:57.394 | INFO     | workflow.rag_workflow:query:145 - Processing query: les risques de vienne...
+2026-01-21 14:34:57.400 | INFO     | workflow.nodes:search_node:128 - === Search Node ===
+2026-01-21 14:34:57.401 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-21 14:34:57.402 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-21 14:34:57.402 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 178 chunks for BM25
+2026-01-21 14:34:57.526 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 178 documents
+2026-01-21 14:34:57.527 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 178 indexed chunks
+2026-01-21 14:34:57.528 | INFO     | workflow.nodes:search_node:164 - Search complete: 5 results found
+2026-01-21 14:34:57.531 | INFO     | workflow.nodes:synthesis_node:187 - === Synthesis Node ===
+2026-01-21 14:34:57.531 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-21 14:34:57.531 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-21 14:34:57.532 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 178 chunks for BM25
+2026-01-21 14:34:57.567 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 178 documents
+2026-01-21 14:34:57.567 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 178 indexed chunks
+2026-01-21 14:34:57.568 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:process:131 - Processing query: les risques de vienne...
+2026-01-21 14:34:57.568 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:_select_passages:244 - Selected 5 passages from 5 results
+2026-01-21 14:34:57.568 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:_synthesize:267 - Synthesizing answer with LLM...
+2026-01-21 14:34:57.569 | INFO     | agents.agent_3_synthesis.llm_service:generate:372 - MockLLMService: Generating contextual response
+2026-01-21 14:34:57.569 | DEBUG    | core.base_agent:update_state:72 - State updated: last_result
+2026-01-21 14:34:57.569 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:process:172 - Synthesis complete: 5 citations, confidence: 1.00
+2026-01-21 14:34:57.570 | INFO     | workflow.nodes:synthesis_node:214 - Synthesis complete: confidence 1.0
+2026-01-21 14:37:21.630 | INFO     | workflow.rag_workflow:load_existing_index:273 - Checking for existing indexed data...
+2026-01-21 14:37:21.634 | INFO     | agents.agent_2_context.embedding_service:__init__:32 - Initializing EmbeddingService with model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-21 14:37:21.962 | INFO     | agents.agent_2_context.vector_store:_initialize_chroma:64 - Initializing ChromaDB at: /home/ilyas-ourara/Bureau/M2/RAG_APPLICATION/project/data/chroma_db
+2026-01-21 14:37:22.236 | INFO     | agents.agent_2_context.vector_store:_initialize_chroma:80 - ChromaDB collection 'ddrm_documents' initialized with 178 existing documents
+2026-01-21 14:37:22.260 | INFO     | workflow.rag_workflow:load_existing_index:298 - Loaded 178 existing chunks from ChromaDB
+2026-01-21 14:37:24.540 | INFO     | __main__:query_documents:68 - Processing query: hello...
+2026-01-21 14:37:24.542 | INFO     | workflow.rag_workflow:query:145 - Processing query: hello...
+2026-01-21 14:37:24.544 | INFO     | workflow.rag_workflow:query_graph:67 - Building query graph...
+2026-01-21 14:37:24.549 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: search
+2026-01-21 14:37:24.551 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: synthesis
+2026-01-21 14:37:24.551 | DEBUG    | workflow.graph_builder:set_entry_point:123 - Set entry point: search
+2026-01-21 14:37:24.553 | DEBUG    | workflow.graph_builder:add_conditional_edge:108 - Added conditional edge from: search
+2026-01-21 14:37:24.554 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: synthesis -> END
+2026-01-21 14:37:24.554 | INFO     | workflow.graph_builder:build:139 - Building graph 'Query Pipeline' with 2 nodes, 1 edges
+2026-01-21 14:37:24.586 | INFO     | workflow.graph_builder:build:146 - Graph compiled successfully
+2026-01-21 14:37:24.593 | INFO     | workflow.nodes:search_node:128 - === Search Node ===
+2026-01-21 14:37:24.594 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-21 14:37:24.844 | INFO     | agents.agent_3_synthesis.llm_service:__init__:264 - Initialized Ollama service at http://localhost:11434 with model llama3.2:1b
+2026-01-21 14:37:24.844 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-21 14:37:24.844 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 178 chunks for BM25
+2026-01-21 14:37:24.876 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 178 documents
+2026-01-21 14:37:24.877 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 178 indexed chunks
+2026-01-21 14:37:24.878 | INFO     | workflow.nodes:search_node:165 - Search complete: 0 results found
+2026-01-21 14:37:33.970 | INFO     | __main__:query_documents:68 - Processing query: les risques de la vienne...
+2026-01-21 14:37:33.970 | INFO     | workflow.rag_workflow:query:145 - Processing query: les risques de la vienne...
+2026-01-21 14:37:33.977 | INFO     | workflow.nodes:search_node:128 - === Search Node ===
+2026-01-21 14:37:33.978 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-21 14:37:34.015 | INFO     | agents.agent_3_synthesis.llm_service:__init__:264 - Initialized Ollama service at http://localhost:11434 with model llama3.2:1b
+2026-01-21 14:37:34.015 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-21 14:37:34.016 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 178 chunks for BM25
+2026-01-21 14:37:34.054 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 178 documents
+2026-01-21 14:37:34.055 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 178 indexed chunks
+2026-01-21 14:37:34.057 | INFO     | workflow.nodes:search_node:165 - Search complete: 5 results found
+2026-01-21 14:37:34.059 | INFO     | workflow.nodes:synthesis_node:188 - === Synthesis Node ===
+2026-01-21 14:37:34.060 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-21 14:37:34.079 | INFO     | agents.agent_3_synthesis.llm_service:__init__:264 - Initialized Ollama service at http://localhost:11434 with model llama3.2:1b
+2026-01-21 14:37:34.080 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-21 14:37:34.080 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 178 chunks for BM25
+2026-01-21 14:37:34.129 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 178 documents
+2026-01-21 14:37:34.130 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 178 indexed chunks
+2026-01-21 14:37:34.130 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:process:131 - Processing query: les risques de la vienne...
+2026-01-21 14:37:34.131 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:_select_passages:244 - Selected 5 passages from 5 results
+2026-01-21 14:37:34.132 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:_synthesize:267 - Synthesizing answer with LLM...
+2026-01-21 14:39:34.270 | ERROR    | agents.agent_3_synthesis.llm_service:generate:308 - Ollama generation error: timed out
+2026-01-21 14:39:34.296 | ERROR    | agents.agent_3_synthesis.research_synthesis_agent:_synthesize:287 - LLM synthesis failed: timed out
+2026-01-21 14:39:34.311 | DEBUG    | core.base_agent:update_state:72 - State updated: last_result
+2026-01-21 14:39:34.312 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:process:172 - Synthesis complete: 5 citations, confidence: 1.00
+2026-01-21 14:39:34.316 | INFO     | workflow.nodes:synthesis_node:216 - Synthesis complete: confidence 1.0
+2026-01-21 14:41:49.042 | INFO     | __main__:query_documents:68 - Processing query: clear...
+2026-01-21 14:41:49.044 | INFO     | workflow.rag_workflow:query:145 - Processing query: clear...
+2026-01-21 14:41:49.149 | INFO     | workflow.nodes:search_node:128 - === Search Node ===
+2026-01-21 14:41:49.150 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-21 14:41:49.199 | INFO     | agents.agent_3_synthesis.llm_service:__init__:264 - Initialized Ollama service at http://localhost:11434 with model llama3.2:1b
+2026-01-21 14:41:49.199 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-21 14:41:49.199 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 178 chunks for BM25
+2026-01-21 14:41:49.243 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 178 documents
+2026-01-21 14:41:49.243 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 178 indexed chunks
+2026-01-21 14:41:49.253 | INFO     | workflow.nodes:search_node:165 - Search complete: 0 results found
+2026-01-21 14:42:22.762 | INFO     | workflow.rag_workflow:load_existing_index:273 - Checking for existing indexed data...
+2026-01-21 14:42:22.764 | INFO     | agents.agent_2_context.embedding_service:__init__:32 - Initializing EmbeddingService with model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-21 14:42:23.152 | INFO     | agents.agent_2_context.vector_store:_initialize_chroma:64 - Initializing ChromaDB at: /home/ilyas-ourara/Bureau/M2/RAG_APPLICATION/project/data/chroma_db
+2026-01-21 14:42:23.367 | INFO     | agents.agent_2_context.vector_store:_initialize_chroma:80 - ChromaDB collection 'ddrm_documents' initialized with 178 existing documents
+2026-01-21 14:42:23.404 | INFO     | workflow.rag_workflow:load_existing_index:298 - Loaded 178 existing chunks from ChromaDB
+2026-01-21 14:42:25.582 | INFO     | __main__:query_documents:69 - Processing query: hello...
+2026-01-21 14:42:25.583 | INFO     | workflow.rag_workflow:query:145 - Processing query: hello...
+2026-01-21 14:42:25.584 | INFO     | workflow.rag_workflow:query_graph:67 - Building query graph...
+2026-01-21 14:42:25.588 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: search
+2026-01-21 14:42:25.590 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: synthesis
+2026-01-21 14:42:25.591 | DEBUG    | workflow.graph_builder:set_entry_point:123 - Set entry point: search
+2026-01-21 14:42:25.592 | DEBUG    | workflow.graph_builder:add_conditional_edge:108 - Added conditional edge from: search
+2026-01-21 14:42:25.593 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: synthesis -> END
+2026-01-21 14:42:25.593 | INFO     | workflow.graph_builder:build:139 - Building graph 'Query Pipeline' with 2 nodes, 1 edges
+2026-01-21 14:42:25.632 | INFO     | workflow.graph_builder:build:146 - Graph compiled successfully
+2026-01-21 14:42:25.640 | INFO     | workflow.nodes:search_node:128 - === Search Node ===
+2026-01-21 14:42:25.642 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-21 14:42:25.930 | INFO     | agents.agent_3_synthesis.llm_service:__init__:264 - Initialized Ollama service at http://localhost:11434 with model llama3.2:1b
+2026-01-21 14:42:25.931 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-21 14:42:25.931 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 178 chunks for BM25
+2026-01-21 14:42:25.958 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 178 documents
+2026-01-21 14:42:25.960 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 178 indexed chunks
+2026-01-21 14:42:25.960 | INFO     | workflow.nodes:search_node:165 - Search complete: 0 results found
+2026-01-21 14:42:40.263 | INFO     | __main__:query_documents:69 - Processing query: les  risques de la vienne...
+2026-01-21 14:42:40.264 | INFO     | workflow.rag_workflow:query:145 - Processing query: les  risques de la vienne...
+2026-01-21 14:42:40.271 | INFO     | workflow.nodes:search_node:128 - === Search Node ===
+2026-01-21 14:42:40.272 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-21 14:42:40.315 | INFO     | agents.agent_3_synthesis.llm_service:__init__:264 - Initialized Ollama service at http://localhost:11434 with model llama3.2:1b
+2026-01-21 14:42:40.316 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-21 14:42:40.316 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 178 chunks for BM25
+2026-01-21 14:42:40.395 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 178 documents
+2026-01-21 14:42:40.396 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 178 indexed chunks
+2026-01-21 14:42:40.396 | INFO     | workflow.nodes:search_node:165 - Search complete: 5 results found
+2026-01-21 14:42:40.398 | INFO     | workflow.nodes:synthesis_node:188 - === Synthesis Node ===
+2026-01-21 14:42:40.399 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-21 14:42:40.408 | INFO     | agents.agent_3_synthesis.llm_service:__init__:264 - Initialized Ollama service at http://localhost:11434 with model llama3.2:1b
+2026-01-21 14:42:40.408 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-21 14:42:40.408 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 178 chunks for BM25
+2026-01-21 14:42:40.428 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 178 documents
+2026-01-21 14:42:40.429 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 178 indexed chunks
+2026-01-21 14:42:40.429 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:process:131 - Processing query: les  risques de la vienne...
+2026-01-21 14:42:40.429 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:_select_passages:244 - Selected 5 passages from 5 results
+2026-01-21 14:42:40.429 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:_synthesize:267 - Synthesizing answer with LLM...
+2026-01-21 14:46:05.655 | DEBUG    | core.base_agent:update_state:72 - State updated: last_result
+2026-01-21 14:46:05.655 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:process:172 - Synthesis complete: 5 citations, confidence: 1.00
+2026-01-21 14:46:05.655 | INFO     | workflow.nodes:synthesis_node:216 - Synthesis complete: confidence 1.0
+2026-01-22 09:27:28.228 | INFO     | workflow.rag_workflow:load_existing_index:273 - Checking for existing indexed data...
+2026-01-22 09:27:28.231 | INFO     | agents.agent_2_context.embedding_service:__init__:32 - Initializing EmbeddingService with model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-22 09:27:28.662 | INFO     | agents.agent_2_context.vector_store:_initialize_chroma:64 - Initializing ChromaDB at: /home/ilyas-ourara/Bureau/M2/RAG_APPLICATION/project/data/chroma_db
+2026-01-22 09:27:29.188 | INFO     | agents.agent_2_context.vector_store:_initialize_chroma:80 - ChromaDB collection 'ddrm_documents' initialized with 178 existing documents
+2026-01-22 09:27:29.234 | INFO     | workflow.rag_workflow:load_existing_index:298 - Loaded 178 existing chunks from ChromaDB
+2026-01-22 09:27:39.769 | INFO     | __main__:query_documents:69 - Processing query: hello...
+2026-01-22 09:27:39.770 | INFO     | workflow.rag_workflow:query:145 - Processing query: hello...
+2026-01-22 09:27:39.771 | INFO     | workflow.rag_workflow:query_graph:67 - Building query graph...
+2026-01-22 09:27:39.774 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: search
+2026-01-22 09:27:39.775 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: synthesis
+2026-01-22 09:27:39.776 | DEBUG    | workflow.graph_builder:set_entry_point:123 - Set entry point: search
+2026-01-22 09:27:39.777 | DEBUG    | workflow.graph_builder:add_conditional_edge:108 - Added conditional edge from: search
+2026-01-22 09:27:39.778 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: synthesis -> END
+2026-01-22 09:27:39.778 | INFO     | workflow.graph_builder:build:139 - Building graph 'Query Pipeline' with 2 nodes, 1 edges
+2026-01-22 09:27:39.807 | INFO     | workflow.graph_builder:build:146 - Graph compiled successfully
+2026-01-22 09:27:39.821 | INFO     | workflow.nodes:search_node:128 - === Search Node ===
+2026-01-22 09:27:39.821 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-22 09:27:40.026 | INFO     | agents.agent_3_synthesis.llm_service:__init__:264 - Initialized Ollama service at http://localhost:11434 with model llama3.2:1b
+2026-01-22 09:27:40.026 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-22 09:27:40.026 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 178 chunks for BM25
+2026-01-22 09:27:40.048 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 178 documents
+2026-01-22 09:27:40.049 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 178 indexed chunks
+2026-01-22 09:27:40.050 | INFO     | workflow.nodes:search_node:165 - Search complete: 0 results found
+2026-01-22 09:27:48.890 | INFO     | __main__:query_documents:69 - Processing query: les risques qui existe...
+2026-01-22 09:27:48.892 | INFO     | workflow.rag_workflow:query:145 - Processing query: les risques qui existe...
+2026-01-22 09:27:48.899 | INFO     | workflow.nodes:search_node:128 - === Search Node ===
+2026-01-22 09:27:48.900 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-22 09:27:48.943 | INFO     | agents.agent_3_synthesis.llm_service:__init__:264 - Initialized Ollama service at http://localhost:11434 with model llama3.2:1b
+2026-01-22 09:27:48.943 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-22 09:27:48.943 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 178 chunks for BM25
+2026-01-22 09:27:48.977 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 178 documents
+2026-01-22 09:27:48.978 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 178 indexed chunks
+2026-01-22 09:27:48.979 | INFO     | workflow.nodes:search_node:165 - Search complete: 5 results found
+2026-01-22 09:27:48.982 | INFO     | workflow.nodes:synthesis_node:188 - === Synthesis Node ===
+2026-01-22 09:27:48.982 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-22 09:27:48.993 | INFO     | agents.agent_3_synthesis.llm_service:__init__:264 - Initialized Ollama service at http://localhost:11434 with model llama3.2:1b
+2026-01-22 09:27:48.993 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-22 09:27:48.994 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 178 chunks for BM25
+2026-01-22 09:27:49.014 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 178 documents
+2026-01-22 09:27:49.015 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 178 indexed chunks
+2026-01-22 09:27:49.015 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:process:131 - Processing query: les risques qui existe...
+2026-01-22 09:27:49.016 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:_select_passages:244 - Selected 5 passages from 5 results
+2026-01-22 09:27:49.016 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:_synthesize:267 - Synthesizing answer with LLM...
+2026-01-22 09:29:10.242 | DEBUG    | core.base_agent:update_state:72 - State updated: last_result
+2026-01-22 09:29:10.242 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:process:172 - Synthesis complete: 5 citations, confidence: 1.00
+2026-01-22 09:29:10.243 | INFO     | workflow.nodes:synthesis_node:216 - Synthesis complete: confidence 1.0
+2026-01-22 16:29:36.418 | INFO     | __main__:index_documents:42 - Indexing 1 documents...
+2026-01-22 16:29:36.418 | INFO     | workflow.rag_workflow:index_documents:92 - Starting document indexing...
+2026-01-22 16:29:36.418 | INFO     | workflow.rag_workflow:indexing_graph:75 - Building indexing graph...
+2026-01-22 16:29:36.419 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: extraction
+2026-01-22 16:29:36.419 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: context_construction
+2026-01-22 16:29:36.419 | DEBUG    | workflow.graph_builder:set_entry_point:123 - Set entry point: extraction
+2026-01-22 16:29:36.420 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: extraction -> context_construction
+2026-01-22 16:29:36.420 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: context_construction -> END
+2026-01-22 16:29:36.420 | INFO     | workflow.graph_builder:build:139 - Building graph 'Indexing Pipeline' with 2 nodes, 2 edges
+2026-01-22 16:29:36.424 | INFO     | workflow.graph_builder:build:146 - Graph compiled successfully
+2026-01-22 16:29:36.427 | INFO     | workflow.nodes:extraction_node:26 - === Extraction Node (Docling) ===
+2026-01-22 16:29:36.429 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:__init__:83 - PDFExtractionAgent initialized (output: /home/ilyas-ourara/Bureau/M2/RAG_APPLICATION/project/output/markdown)
+2026-01-22 16:29:36.430 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:process:126 - Starting PDF extraction process (Docling)
+2026-01-22 16:29:36.430 | ERROR    | workflow.nodes:extraction_node:53 - Extraction failed: PDF file not found: data/DDRM_DeuxSevres_2020.pf
+2026-01-22 16:29:36.431 | INFO     | workflow.nodes:context_construction_node:74 - === Context Construction Node ===
+2026-01-22 16:29:36.431 | WARNING  | workflow.nodes:context_construction_node:80 - No markdown files available from extraction
+2026-01-22 16:29:36.432 | INFO     | workflow.rag_workflow:index_documents:123 - Indexing complete: 0 documents, 0 chunks
+2026-01-22 16:30:45.638 | INFO     | __main__:index_documents:42 - Indexing 1 documents...
+2026-01-22 16:30:45.638 | INFO     | workflow.rag_workflow:index_documents:92 - Starting document indexing...
+2026-01-22 16:30:45.638 | INFO     | workflow.rag_workflow:indexing_graph:75 - Building indexing graph...
+2026-01-22 16:30:45.639 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: extraction
+2026-01-22 16:30:45.640 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: context_construction
+2026-01-22 16:30:45.640 | DEBUG    | workflow.graph_builder:set_entry_point:123 - Set entry point: extraction
+2026-01-22 16:30:45.640 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: extraction -> context_construction
+2026-01-22 16:30:45.640 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: context_construction -> END
+2026-01-22 16:30:45.640 | INFO     | workflow.graph_builder:build:139 - Building graph 'Indexing Pipeline' with 2 nodes, 2 edges
+2026-01-22 16:30:45.645 | INFO     | workflow.graph_builder:build:146 - Graph compiled successfully
+2026-01-22 16:30:45.647 | INFO     | workflow.nodes:extraction_node:26 - === Extraction Node (Docling) ===
+2026-01-22 16:30:45.650 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:__init__:83 - PDFExtractionAgent initialized (output: /home/ilyas-ourara/Bureau/M2/RAG_APPLICATION/project/output/markdown)
+2026-01-22 16:30:45.650 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:process:126 - Starting PDF extraction process (Docling)
+2026-01-22 16:30:45.650 | ERROR    | workflow.nodes:extraction_node:53 - Extraction failed: PDF file not found: data/DDRM_DeuxSevres_2020.pf
+2026-01-22 16:30:45.651 | INFO     | workflow.nodes:context_construction_node:74 - === Context Construction Node ===
+2026-01-22 16:30:45.652 | WARNING  | workflow.nodes:context_construction_node:80 - No markdown files available from extraction
+2026-01-22 16:30:45.652 | INFO     | workflow.rag_workflow:index_documents:123 - Indexing complete: 0 documents, 0 chunks
+2026-01-22 16:31:26.393 | INFO     | __main__:index_documents:42 - Indexing 1 documents...
+2026-01-22 16:31:26.393 | INFO     | workflow.rag_workflow:index_documents:92 - Starting document indexing...
+2026-01-22 16:31:26.393 | INFO     | workflow.rag_workflow:indexing_graph:75 - Building indexing graph...
+2026-01-22 16:31:26.394 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: extraction
+2026-01-22 16:31:26.395 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: context_construction
+2026-01-22 16:31:26.395 | DEBUG    | workflow.graph_builder:set_entry_point:123 - Set entry point: extraction
+2026-01-22 16:31:26.395 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: extraction -> context_construction
+2026-01-22 16:31:26.395 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: context_construction -> END
+2026-01-22 16:31:26.395 | INFO     | workflow.graph_builder:build:139 - Building graph 'Indexing Pipeline' with 2 nodes, 2 edges
+2026-01-22 16:31:26.402 | INFO     | workflow.graph_builder:build:146 - Graph compiled successfully
+2026-01-22 16:31:26.403 | INFO     | workflow.nodes:extraction_node:26 - === Extraction Node (Docling) ===
+2026-01-22 16:31:26.405 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:__init__:83 - PDFExtractionAgent initialized (output: /home/ilyas-ourara/Bureau/M2/RAG_APPLICATION/project/output/markdown)
+2026-01-22 16:31:26.406 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:process:126 - Starting PDF extraction process (Docling)
+2026-01-22 16:31:26.406 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:_extract_single_pdf:169 - Extracting PDF: data/DDRM_DeuxSevres_2020.pdf
+2026-01-22 16:43:58.221 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:_save_markdown:251 - Saved Markdown: /home/ilyas-ourara/Bureau/M2/RAG_APPLICATION/project/output/markdown/DDRM_DeuxSevres_2020.md
+2026-01-22 16:43:58.404 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:process:144 - ✓ Extracted: DDRM_DeuxSevres_2020.pdf (751.80s)
+2026-01-22 16:43:58.405 | DEBUG    | core.base_agent:update_state:72 - State updated: extraction_results
+2026-01-22 16:43:58.409 | DEBUG    | core.base_agent:update_state:72 - State updated: markdown_files
+2026-01-22 16:43:58.410 | INFO     | workflow.nodes:extraction_node:50 - Extraction complete: 1/1 documents processed
+2026-01-22 16:43:58.470 | INFO     | workflow.nodes:context_construction_node:74 - === Context Construction Node ===
+2026-01-22 16:43:58.473 | INFO     | agents.agent_2_context.embedding_service:__init__:32 - Initializing EmbeddingService with model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-22 16:43:59.922 | INFO     | agents.agent_2_context.vector_store:_initialize_chroma:64 - Initializing ChromaDB at: /home/ilyas-ourara/Bureau/M2/RAG_APPLICATION/project/data/chroma_db
+2026-01-22 16:44:00.525 | INFO     | agents.agent_2_context.vector_store:_initialize_chroma:80 - ChromaDB collection 'ddrm_documents' initialized with 178 existing documents
+2026-01-22 16:44:00.525 | INFO     | agents.agent_2_context.context_construction_agent:process_markdown_content:165 - Processing 1 Docling extraction results
+2026-01-22 16:44:00.525 | INFO     | agents.agent_2_context.markdown_parser:parse:64 - Parsing Markdown content...
+2026-01-22 16:44:00.555 | INFO     | agents.agent_2_context.markdown_parser:parse:90 - Parsed: 331 sections, 0 links, 20 tables
+2026-01-22 16:44:00.570 | INFO     | agents.agent_2_context.context_construction_agent:process_markdown_content:193 - Processed DDRM_DeuxSevres_2020.pdf: 266 chunks
+2026-01-22 16:44:00.570 | INFO     | agents.agent_2_context.context_construction_agent:process_markdown_content:203 - Computing embeddings for 266 chunks...
+2026-01-22 16:44:00.570 | INFO     | agents.agent_2_context.embedding_service:embed_texts:101 - Embedding 266 texts...
+2026-01-22 16:44:07.148 | INFO     | agents.agent_2_context.embedding_service:_load_model:46 - Loading model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-22 16:44:09.437 | INFO     | agents.agent_2_context.embedding_service:_load_model:48 - Model loaded successfully
+2026-01-22 16:44:25.109 | INFO     | agents.agent_2_context.embedding_service:embed_texts:128 - Generated 266 embeddings
+2026-01-22 16:44:25.110 | INFO     | agents.agent_2_context.context_construction_agent:process_markdown_content:208 - Storing chunks in vector database...
+2026-01-22 16:44:25.110 | INFO     | agents.agent_2_context.vector_store:add_chunks:142 - Adding 266 chunks to vector store
+2026-01-22 16:44:25.676 | INFO     | agents.agent_2_context.vector_store:_add_to_chroma:176 - Added 266 chunks to ChromaDB
+2026-01-22 16:44:25.676 | DEBUG    | core.base_agent:update_state:72 - State updated: chunks
+2026-01-22 16:44:25.677 | DEBUG    | core.base_agent:update_state:72 - State updated: embeddings_stored
+2026-01-22 16:44:25.677 | DEBUG    | core.base_agent:update_state:72 - State updated: vector_store_ready
+2026-01-22 16:44:25.754 | INFO     | agents.agent_2_context.context_construction_agent:export_to_json:577 - Exported 444 chunks to /home/ilyas-ourara/Bureau/M2/RAG_APPLICATION/project/output/chunks/chunks.json
+2026-01-22 16:44:25.755 | INFO     | agents.agent_2_context.context_construction_agent:process_markdown_content:225 - Docling content processing complete: 1 docs, 266 chunks stored
+2026-01-22 16:44:25.757 | INFO     | workflow.nodes:context_construction_node:105 - Context construction complete: 266 chunks stored
+2026-01-22 16:44:25.758 | INFO     | workflow.rag_workflow:index_documents:123 - Indexing complete: 0 documents, 266 chunks
+2026-01-22 16:47:22.353 | INFO     | workflow.rag_workflow:load_existing_index:273 - Checking for existing indexed data...
+2026-01-22 16:47:22.356 | INFO     | agents.agent_2_context.embedding_service:__init__:32 - Initializing EmbeddingService with model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-22 16:47:22.682 | INFO     | agents.agent_2_context.vector_store:_initialize_chroma:64 - Initializing ChromaDB at: /home/ilyas-ourara/Bureau/M2/RAG_APPLICATION/project/data/chroma_db
+2026-01-22 16:47:22.903 | INFO     | agents.agent_2_context.vector_store:_initialize_chroma:80 - ChromaDB collection 'ddrm_documents' initialized with 444 existing documents
+2026-01-22 16:47:22.967 | INFO     | workflow.rag_workflow:load_existing_index:298 - Loaded 444 existing chunks from ChromaDB
+2026-01-22 16:47:46.372 | INFO     | __main__:query_documents:69 - Processing query: SOMMAIRE...
+2026-01-22 16:47:46.373 | INFO     | workflow.rag_workflow:query:145 - Processing query: SOMMAIRE...
+2026-01-22 16:47:46.373 | INFO     | workflow.rag_workflow:query_graph:67 - Building query graph...
+2026-01-22 16:47:46.378 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: search
+2026-01-22 16:47:46.380 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: synthesis
+2026-01-22 16:47:46.380 | DEBUG    | workflow.graph_builder:set_entry_point:123 - Set entry point: search
+2026-01-22 16:47:46.383 | DEBUG    | workflow.graph_builder:add_conditional_edge:108 - Added conditional edge from: search
+2026-01-22 16:47:46.383 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: synthesis -> END
+2026-01-22 16:47:46.384 | INFO     | workflow.graph_builder:build:139 - Building graph 'Query Pipeline' with 2 nodes, 1 edges
+2026-01-22 16:47:46.417 | INFO     | workflow.graph_builder:build:146 - Graph compiled successfully
+2026-01-22 16:47:46.425 | INFO     | workflow.nodes:search_node:128 - === Search Node ===
+2026-01-22 16:47:46.425 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-22 16:47:46.623 | INFO     | agents.agent_3_synthesis.llm_service:__init__:264 - Initialized Ollama service at http://localhost:11434 with model llama3.2:1b
+2026-01-22 16:47:46.623 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-22 16:47:46.623 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 444 chunks for BM25
+2026-01-22 16:47:46.679 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 444 documents
+2026-01-22 16:47:46.679 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 444 indexed chunks
+2026-01-22 16:47:46.680 | INFO     | workflow.nodes:search_node:165 - Search complete: 3 results found
+2026-01-22 16:47:46.684 | INFO     | workflow.nodes:synthesis_node:188 - === Synthesis Node ===
+2026-01-22 16:47:46.684 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-22 16:47:46.699 | INFO     | agents.agent_3_synthesis.llm_service:__init__:264 - Initialized Ollama service at http://localhost:11434 with model llama3.2:1b
+2026-01-22 16:47:46.699 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-22 16:47:46.699 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 444 chunks for BM25
+2026-01-22 16:47:46.748 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 444 documents
+2026-01-22 16:47:46.749 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 444 indexed chunks
+2026-01-22 16:47:46.749 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:process:131 - Processing query: SOMMAIRE...
+2026-01-22 16:47:46.750 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:_select_passages:244 - Selected 3 passages from 3 results
+2026-01-22 16:47:46.750 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:_synthesize:267 - Synthesizing answer with LLM...
+2026-01-22 16:51:29.337 | DEBUG    | core.base_agent:update_state:72 - State updated: last_result
+2026-01-22 16:51:29.340 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:process:172 - Synthesis complete: 3 citations, confidence: 1.00
+2026-01-22 16:51:29.342 | INFO     | workflow.nodes:synthesis_node:216 - Synthesis complete: confidence 1.0
+2026-01-22 17:35:05.906 | INFO     | workflow.rag_workflow:load_existing_index:273 - Checking for existing indexed data...
+2026-01-22 17:35:05.911 | INFO     | agents.agent_2_context.embedding_service:__init__:32 - Initializing EmbeddingService with model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-22 17:35:06.312 | INFO     | agents.agent_2_context.vector_store:_initialize_chroma:64 - Initializing ChromaDB at: /home/ilyas-ourara/Bureau/M2/RAG_APPLICATION/project/data/chroma_db
+2026-01-22 17:35:07.069 | INFO     | agents.agent_2_context.vector_store:_initialize_chroma:80 - ChromaDB collection 'ddrm_documents' initialized with 444 existing documents
+2026-01-22 17:35:07.180 | INFO     | workflow.rag_workflow:load_existing_index:298 - Loaded 444 existing chunks from ChromaDB
+2026-01-22 17:35:09.438 | INFO     | __main__:query_documents:69 - Processing query: Quels sont les risques naturels et technologiques ...
+2026-01-22 17:35:09.439 | INFO     | workflow.rag_workflow:query:145 - Processing query: Quels sont les risques naturels et technologiques ...
+2026-01-22 17:35:09.439 | INFO     | workflow.rag_workflow:query_graph:67 - Building query graph...
+2026-01-22 17:35:09.439 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: search
+2026-01-22 17:35:09.440 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: synthesis
+2026-01-22 17:35:09.440 | DEBUG    | workflow.graph_builder:set_entry_point:123 - Set entry point: search
+2026-01-22 17:35:09.440 | DEBUG    | workflow.graph_builder:add_conditional_edge:108 - Added conditional edge from: search
+2026-01-22 17:35:09.440 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: synthesis -> END
+2026-01-22 17:35:09.440 | INFO     | workflow.graph_builder:build:139 - Building graph 'Query Pipeline' with 2 nodes, 1 edges
+2026-01-22 17:35:09.448 | INFO     | workflow.graph_builder:build:146 - Graph compiled successfully
+2026-01-22 17:35:09.453 | INFO     | workflow.nodes:search_node:128 - === Search Node ===
+2026-01-22 17:35:09.453 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-22 17:35:09.593 | INFO     | agents.agent_3_synthesis.llm_service:__init__:264 - Initialized Ollama service at http://localhost:11434 with model llama3.2:1b
+2026-01-22 17:35:09.593 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-22 17:35:09.593 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 444 chunks for BM25
+2026-01-22 17:35:09.646 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 444 documents
+2026-01-22 17:35:09.647 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 444 indexed chunks
+2026-01-22 17:35:09.650 | INFO     | workflow.nodes:search_node:165 - Search complete: 5 results found
+2026-01-22 17:35:09.653 | INFO     | workflow.nodes:synthesis_node:188 - === Synthesis Node ===
+2026-01-22 17:35:09.653 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-22 17:35:09.681 | INFO     | agents.agent_3_synthesis.llm_service:__init__:264 - Initialized Ollama service at http://localhost:11434 with model llama3.2:1b
+2026-01-22 17:35:09.681 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-22 17:35:09.681 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 444 chunks for BM25
+2026-01-22 17:35:09.752 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 444 documents
+2026-01-22 17:35:09.752 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 444 indexed chunks
+2026-01-22 17:35:09.752 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:process:131 - Processing query: Quels sont les risques naturels et technologiques ...
+2026-01-22 17:35:09.754 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:_select_passages:244 - Selected 5 passages from 5 results
+2026-01-22 17:35:09.754 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:_synthesize:267 - Synthesizing answer with LLM...
+2026-01-22 17:37:13.348 | DEBUG    | core.base_agent:update_state:72 - State updated: last_result
+2026-01-22 17:37:13.349 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:process:172 - Synthesis complete: 5 citations, confidence: 1.00
+2026-01-22 17:37:13.349 | INFO     | workflow.nodes:synthesis_node:216 - Synthesis complete: confidence 1.0
+2026-01-22 17:43:50.740 | INFO     | workflow.rag_workflow:index_documents:92 - Starting document indexing...
+2026-01-22 17:43:50.740 | INFO     | workflow.rag_workflow:indexing_graph:75 - Building indexing graph...
+2026-01-22 17:43:50.741 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: extraction
+2026-01-22 17:43:50.741 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: context_construction
+2026-01-22 17:43:50.741 | DEBUG    | workflow.graph_builder:set_entry_point:123 - Set entry point: extraction
+2026-01-22 17:43:50.742 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: extraction -> context_construction
+2026-01-22 17:43:50.742 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: context_construction -> END
+2026-01-22 17:43:50.742 | INFO     | workflow.graph_builder:build:139 - Building graph 'Indexing Pipeline' with 2 nodes, 2 edges
+2026-01-22 17:43:50.752 | INFO     | workflow.graph_builder:build:146 - Graph compiled successfully
+2026-01-22 17:43:50.754 | INFO     | workflow.nodes:extraction_node:26 - === Extraction Node (Docling) ===
+2026-01-22 17:43:50.756 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:__init__:83 - PDFExtractionAgent initialized (output: /home/ilyas-ourara/Bureau/M2/RAG_APPLICATION/project/output/markdown)
+2026-01-22 17:43:50.757 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:process:126 - Starting PDF extraction process (Docling)
+2026-01-22 17:43:50.757 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:_extract_single_pdf:169 - Extracting PDF: data/DDRM_vienne_86.pdf
+2026-01-22 17:55:55.913 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:_save_markdown:251 - Saved Markdown: /home/ilyas-ourara/Bureau/M2/RAG_APPLICATION/project/output/markdown/DDRM_vienne_86.md
+2026-01-22 17:55:55.934 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:process:144 - ✓ Extracted: DDRM_vienne_86.pdf (725.15s)
+2026-01-22 17:55:55.935 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:_extract_single_pdf:169 - Extracting PDF: data/DDRM_DeuxSevres_2020.pdf
+2026-01-22 23:09:43.930 | INFO     | workflow.rag_workflow:index_documents:92 - Starting document indexing...
+2026-01-22 23:09:43.931 | INFO     | workflow.rag_workflow:indexing_graph:75 - Building indexing graph...
+2026-01-22 23:09:43.932 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: extraction
+2026-01-22 23:09:43.933 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: context_construction
+2026-01-22 23:09:43.933 | DEBUG    | workflow.graph_builder:set_entry_point:123 - Set entry point: extraction
+2026-01-22 23:09:43.933 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: extraction -> context_construction
+2026-01-22 23:09:43.933 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: context_construction -> END
+2026-01-22 23:09:43.933 | INFO     | workflow.graph_builder:build:139 - Building graph 'Indexing Pipeline' with 2 nodes, 2 edges
+2026-01-22 23:09:43.938 | INFO     | workflow.graph_builder:build:146 - Graph compiled successfully
+2026-01-22 23:09:43.940 | INFO     | workflow.nodes:extraction_node:26 - === Extraction Node (Docling) ===
+2026-01-22 23:09:43.942 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:__init__:83 - PDFExtractionAgent initialized (output: /home/ilyas-ourara/Bureau/M2/RAG_APPLICATION/project/output/markdown)
+2026-01-22 23:09:43.942 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:process:126 - Starting PDF extraction process (Docling)
+2026-01-22 23:09:43.942 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:_extract_single_pdf:169 - Extracting PDF: data/DDRM_vienne_86.pdf
+2026-01-22 23:20:42.743 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:_save_markdown:251 - Saved Markdown: /home/ilyas-ourara/Bureau/M2/RAG_APPLICATION/project/output/markdown/DDRM_vienne_86.md
+2026-01-22 23:20:42.763 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:process:144 - ✓ Extracted: DDRM_vienne_86.pdf (658.79s)
+2026-01-22 23:20:42.763 | INFO     | agents.agent_1_extraction.pdf_extraction_agent:_extract_single_pdf:169 - Extracting PDF: data/DDRM_DeuxSevres_2020.pdf
+2026-01-23 00:38:21.604 | INFO     | workflow.rag_workflow:load_existing_index:273 - Checking for existing indexed data...
+2026-01-23 00:38:21.613 | INFO     | agents.agent_2_context.embedding_service:__init__:32 - Initializing EmbeddingService with model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-23 00:38:22.095 | INFO     | agents.agent_2_context.vector_store:_initialize_chroma:64 - Initializing ChromaDB at: /home/ilyas-ourara/Bureau/M2/RAG_APPLICATION/project/data/chroma_db
+2026-01-23 00:38:23.286 | INFO     | agents.agent_2_context.vector_store:_initialize_chroma:80 - ChromaDB collection 'ddrm_documents' initialized with 444 existing documents
+2026-01-23 00:38:23.444 | INFO     | workflow.rag_workflow:load_existing_index:298 - Loaded 444 existing chunks from ChromaDB
+2026-01-23 00:38:26.275 | INFO     | __main__:query_documents:69 - Processing query: hello...
+2026-01-23 00:38:26.278 | INFO     | workflow.rag_workflow:query:145 - Processing query: hello...
+2026-01-23 00:38:26.278 | INFO     | workflow.rag_workflow:query_graph:67 - Building query graph...
+2026-01-23 00:38:26.283 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: search
+2026-01-23 00:38:26.285 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: synthesis
+2026-01-23 00:38:26.286 | DEBUG    | workflow.graph_builder:set_entry_point:123 - Set entry point: search
+2026-01-23 00:38:26.288 | DEBUG    | workflow.graph_builder:add_conditional_edge:108 - Added conditional edge from: search
+2026-01-23 00:38:26.289 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: synthesis -> END
+2026-01-23 00:38:26.289 | INFO     | workflow.graph_builder:build:139 - Building graph 'Query Pipeline' with 2 nodes, 1 edges
+2026-01-23 00:38:26.324 | INFO     | workflow.graph_builder:build:146 - Graph compiled successfully
+2026-01-23 00:38:26.331 | INFO     | workflow.nodes:search_node:128 - === Search Node ===
+2026-01-23 00:38:26.332 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-23 00:38:26.524 | INFO     | agents.agent_3_synthesis.llm_service:__init__:264 - Initialized Ollama service at http://localhost:11434 with model llama3.2:1b
+2026-01-23 00:38:26.524 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-23 00:38:26.524 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 444 chunks for BM25
+2026-01-23 00:38:26.579 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 444 documents
+2026-01-23 00:38:26.580 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 444 indexed chunks
+2026-01-23 00:38:26.582 | INFO     | workflow.nodes:search_node:165 - Search complete: 0 results found
+2026-01-23 00:38:47.579 | INFO     | __main__:query_documents:69 - Processing query: "Quels sont les risques naturels et technologiques...
+2026-01-23 00:38:47.579 | INFO     | workflow.rag_workflow:query:145 - Processing query: "Quels sont les risques naturels et technologiques...
+2026-01-23 00:38:47.580 | INFO     | workflow.nodes:search_node:128 - === Search Node ===
+2026-01-23 00:38:47.580 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-23 00:38:47.593 | INFO     | agents.agent_3_synthesis.llm_service:__init__:264 - Initialized Ollama service at http://localhost:11434 with model llama3.2:1b
+2026-01-23 00:38:47.593 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-23 00:38:47.593 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 444 chunks for BM25
+2026-01-23 00:38:47.657 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 444 documents
+2026-01-23 00:38:47.658 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 444 indexed chunks
+2026-01-23 00:38:47.659 | INFO     | workflow.nodes:search_node:165 - Search complete: 3 results found
+2026-01-23 00:38:47.662 | INFO     | workflow.nodes:synthesis_node:188 - === Synthesis Node ===
+2026-01-23 00:38:47.662 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-23 00:38:47.672 | INFO     | agents.agent_3_synthesis.llm_service:__init__:264 - Initialized Ollama service at http://localhost:11434 with model llama3.2:1b
+2026-01-23 00:38:47.672 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-23 00:38:47.672 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 444 chunks for BM25
+2026-01-23 00:38:47.723 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 444 documents
+2026-01-23 00:38:47.723 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 444 indexed chunks
+2026-01-23 00:38:47.723 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:process:131 - Processing query: "Quels sont les risques naturels et technologiques...
+2026-01-23 00:38:47.725 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:_select_passages:244 - Selected 3 passages from 3 results
+2026-01-23 00:38:47.725 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:_synthesize:267 - Synthesizing answer with LLM...
+2026-01-23 00:40:30.652 | DEBUG    | core.base_agent:update_state:72 - State updated: last_result
+2026-01-23 00:40:30.652 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:process:172 - Synthesis complete: 3 citations, confidence: 1.00
+2026-01-23 00:40:30.652 | INFO     | workflow.nodes:synthesis_node:216 - Synthesis complete: confidence 1.0
+2026-01-23 00:48:56.884 | INFO     | workflow.rag_workflow:load_existing_index:273 - Checking for existing indexed data...
+2026-01-23 00:48:56.887 | INFO     | agents.agent_2_context.embedding_service:__init__:32 - Initializing EmbeddingService with model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-23 00:48:57.293 | INFO     | agents.agent_2_context.vector_store:_initialize_chroma:64 - Initializing ChromaDB at: /home/ilyas-ourara/Bureau/M2/RAG_APPLICATION/project/data/chroma_db
+2026-01-23 00:48:57.545 | INFO     | agents.agent_2_context.vector_store:_initialize_chroma:80 - ChromaDB collection 'ddrm_documents' initialized with 444 existing documents
+2026-01-23 00:48:57.609 | INFO     | workflow.rag_workflow:load_existing_index:298 - Loaded 444 existing chunks from ChromaDB
+2026-01-23 00:48:58.880 | INFO     | __main__:query_documents:69 - Processing query: "Quelles sont les principales rivières concernées ...
+2026-01-23 00:48:58.881 | INFO     | workflow.rag_workflow:query:145 - Processing query: "Quelles sont les principales rivières concernées ...
+2026-01-23 00:48:58.881 | INFO     | workflow.rag_workflow:query_graph:67 - Building query graph...
+2026-01-23 00:48:58.882 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: search
+2026-01-23 00:48:58.883 | DEBUG    | workflow.graph_builder:add_node:63 - Added node: synthesis
+2026-01-23 00:48:58.883 | DEBUG    | workflow.graph_builder:set_entry_point:123 - Set entry point: search
+2026-01-23 00:48:58.884 | DEBUG    | workflow.graph_builder:add_conditional_edge:108 - Added conditional edge from: search
+2026-01-23 00:48:58.884 | DEBUG    | workflow.graph_builder:add_edge:80 - Added edge: synthesis -> END
+2026-01-23 00:48:58.884 | INFO     | workflow.graph_builder:build:139 - Building graph 'Query Pipeline' with 2 nodes, 1 edges
+2026-01-23 00:48:58.895 | INFO     | workflow.graph_builder:build:146 - Graph compiled successfully
+2026-01-23 00:48:58.897 | INFO     | workflow.nodes:search_node:128 - === Search Node ===
+2026-01-23 00:48:58.897 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-23 00:48:59.025 | INFO     | agents.agent_3_synthesis.llm_service:__init__:264 - Initialized Ollama service at http://localhost:11434 with model llama3.2:1b
+2026-01-23 00:48:59.025 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-23 00:48:59.025 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 444 chunks for BM25
+2026-01-23 00:48:59.079 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 444 documents
+2026-01-23 00:48:59.079 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 444 indexed chunks
+2026-01-23 00:48:59.088 | INFO     | workflow.nodes:search_node:165 - Search complete: 3 results found
+2026-01-23 00:48:59.091 | INFO     | workflow.nodes:synthesis_node:188 - === Synthesis Node ===
+2026-01-23 00:48:59.091 | INFO     | agents.agent_3_synthesis.hybrid_search:__init__:47 - Initialized HybridSearchEngine (BM25 weight: 0.3, Vector weight: 0.7)
+2026-01-23 00:48:59.101 | INFO     | agents.agent_3_synthesis.llm_service:__init__:264 - Initialized Ollama service at http://localhost:11434 with model llama3.2:1b
+2026-01-23 00:48:59.101 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:97 - Preparing Research & Synthesis Agent...
+2026-01-23 00:48:59.101 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:59 - Indexing 444 chunks for BM25
+2026-01-23 00:48:59.179 | INFO     | agents.agent_3_synthesis.hybrid_search:index_chunks:79 - BM25 index built with 444 documents
+2026-01-23 00:48:59.180 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:prepare:117 - Agent ready with 444 indexed chunks
+2026-01-23 00:48:59.180 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:process:131 - Processing query: "Quelles sont les principales rivières concernées ...
+2026-01-23 00:48:59.181 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:_select_passages:244 - Selected 3 passages from 3 results
+2026-01-23 00:48:59.181 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:_synthesize:267 - Synthesizing answer with LLM...
+2026-01-23 00:50:59.285 | ERROR    | agents.agent_3_synthesis.llm_service:generate:310 - Ollama generation error: timed out
+2026-01-23 00:50:59.287 | ERROR    | agents.agent_3_synthesis.research_synthesis_agent:_synthesize:287 - LLM synthesis failed: timed out
+2026-01-23 00:50:59.289 | DEBUG    | core.base_agent:update_state:72 - State updated: last_result
+2026-01-23 00:50:59.289 | INFO     | agents.agent_3_synthesis.research_synthesis_agent:process:172 - Synthesis complete: 3 citations, confidence: 1.00
+2026-01-23 00:50:59.289 | INFO     | workflow.nodes:synthesis_node:216 - Synthesis complete: confidence 1.0
+2026-01-23 00:51:36.859 | ERROR    | __main__:interactive_mode:180 - Error: 
+2026-01-23 00:51:36.880 | ERROR    | __main__:main:305 - Application error: [Errno 5] Input/output error
