@@ -174,10 +174,5 @@ print(response.answer)
 - Citations avec références aux sources
 - Score de confiance
 
-## Auteur
 
-Ilyas Ourara - Master 2 Intelligence Artificielle
 
-## Licence
-
-Ce projet est sous licence MIT.
