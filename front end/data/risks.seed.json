@@ -1,0 +1,332 @@
+{
+  "metadata": {
+    "source": "DDRM Vienne 2024",
+    "lastUpdated": "2024-01-01",
+    "department": "86 - Vienne"
+  },
+  "risks": [
+    {
+      "id": "inondation",
+      "name": "Inondation",
+      "category": "naturel",
+      "description": "Les inondations constituent le risque naturel majeur le plus fréquent dans la Vienne. Elles peuvent être causées par le débordement de cours d'eau (Clain, Vienne, Creuse) ou par ruissellement lors d'épisodes pluvieux intenses.",
+      "alea": {
+        "type": "débordement et ruissellement",
+        "frequence": "récurrent",
+        "intensite": "variable"
+      },
+      "communes": [
+        "Poitiers",
+        "Châtellerault",
+        "Loudun",
+        "Montmorillon",
+        "Chauvigny",
+        "Jaunay-Marigny",
+        "Vivonne"
+      ],
+      "consignes": {
+        "avant": [
+          "Connaître les zones inondables de sa commune",
+          "Prévoir un kit d'urgence",
+          "S'inscrire aux alertes de la commune"
+        ],
+        "pendant": [
+          "Montez à l'étage ou sur les hauteurs",
+          "Coupez le gaz et l'électricité",
+          "N'allez pas chercher vos enfants à l'école",
+          "Ne vous engagez pas sur une route inondée",
+          "Ne descendez pas dans les sous-sols"
+        ],
+        "apres": [
+          "Aérer et désinfecter les pièces",
+          "Ne rétablir l'électricité que si l'installation est sèche",
+          "Faire l'inventaire des dommages"
+        ]
+      },
+      "documents": ["PPRI Clain", "PPRI Vienne", "Atlas des zones inondables"],
+      "prevention": {
+        "ppr": true,
+        "pcs": true,
+        "dicrim": true
+      }
+    },
+    {
+      "id": "mouvement-terrain",
+      "name": "Mouvements de terrain",
+      "category": "naturel",
+      "description": "Les mouvements de terrain comprennent les glissements, effondrements, et le phénomène de retrait-gonflement des argiles qui affecte de nombreuses communes du département.",
+      "alea": {
+        "type": "retrait-gonflement des argiles, cavités souterraines",
+        "frequence": "variable",
+        "intensite": "faible à modéré"
+      },
+      "communes": [
+        "Poitiers",
+        "Châtellerault",
+        "Civaux",
+        "Chauvigny",
+        "Montmorillon"
+      ],
+      "consignes": {
+        "avant": [
+          "Faire diagnostiquer son habitation",
+          "Éviter de construire en zone à risque",
+          "Maintenir une végétation adaptée"
+        ],
+        "pendant": [
+          "Éloignez-vous de la zone de danger",
+          "N'entrez pas dans un bâtiment endommagé",
+          "Signalez les fissures ou déformations aux autorités"
+        ],
+        "apres": [
+          "Faire expertiser les dommages",
+          "Ne pas réintégrer sans avis d'expert"
+        ]
+      },
+      "documents": ["Carte aléa retrait-gonflement des argiles", "BRGM cavités souterraines"],
+      "prevention": {
+        "ppr": false,
+        "pcs": true,
+        "dicrim": true
+      }
+    },
+    {
+      "id": "seisme",
+      "name": "Séisme",
+      "category": "naturel",
+      "description": "La Vienne est classée en zone de sismicité modérée (niveau 3 sur 5). Bien que les séismes majeurs soient rares, des secousses peuvent être ressenties périodiquement.",
+      "alea": {
+        "type": "sismicité modérée",
+        "zone": 3,
+        "frequence": "rare"
+      },
+      "communes": ["Ensemble du département"],
+      "consignes": {
+        "avant": [
+          "Repérer les points de coupure du gaz et de l'électricité",
+          "Fixer les meubles lourds",
+          "Prévoir un kit d'urgence"
+        ],
+        "pendant": [
+          "À l'intérieur : abritez-vous sous un meuble solide, loin des fenêtres",
+          "À l'extérieur : éloignez-vous des bâtiments et des lignes électriques",
+          "En voiture : arrêtez-vous à distance des constructions"
+        ],
+        "apres": [
+          "Coupez le gaz et l'électricité",
+          "N'utilisez pas les ascenseurs",
+          "Éloignez-vous des bâtiments endommagés",
+          "Attendez les répliques éventuelles"
+        ]
+      },
+      "documents": ["Zonage sismique national", "Règles de construction parasismique"],
+      "prevention": {
+        "ppr": false,
+        "pcs": true,
+        "dicrim": true
+      }
+    },
+    {
+      "id": "climatique",
+      "name": "Phénomènes climatiques",
+      "category": "naturel",
+      "description": "Tempêtes, canicules, grand froid et orages violents peuvent affecter le département et nécessitent une vigilance particulière des populations.",
+      "alea": {
+        "type": "tempêtes, canicules, grand froid, orages",
+        "frequence": "saisonnier"
+      },
+      "communes": ["Ensemble du département"],
+      "consignes": {
+        "tempete": [
+          "Rangez les objets susceptibles d'être emportés par le vent",
+          "Limitez vos déplacements",
+          "Restez à l'abri et éloignez-vous des fenêtres"
+        ],
+        "canicule": [
+          "Hydratez-vous régulièrement",
+          "Restez au frais aux heures les plus chaudes",
+          "Donnez des nouvelles à vos proches vulnérables"
+        ],
+        "grand_froid": [
+          "Chauffez-vous sans risque (pas de brasero intérieur)",
+          "Protégez les canalisations du gel",
+          "Limitez les efforts physiques"
+        ]
+      },
+      "documents": ["Plan canicule", "Plan grand froid"],
+      "prevention": {
+        "ppr": false,
+        "pcs": true,
+        "dicrim": true
+      }
+    },
+    {
+      "id": "feux-foret",
+      "name": "Feux de forêt",
+      "category": "naturel",
+      "description": "Les zones boisées du département peuvent être exposées aux incendies, particulièrement en période de sécheresse estivale.",
+      "alea": {
+        "type": "incendie de végétation",
+        "frequence": "saisonnier (été)"
+      },
+      "communes": ["Zones forestières du sud du département"],
+      "consignes": {
+        "avant": [
+          "Débroussaillez autour de votre habitation (50m)",
+          "Créez des zones coupe-feu",
+          "Utilisez des matériaux résistants au feu"
+        ],
+        "pendant": [
+          "Alertez les pompiers (18 ou 112)",
+          "Si vous êtes surpris, abritez-vous dans un bâtiment",
+          "Fermez volets, portes et fenêtres",
+          "Respirez à travers un linge humide"
+        ],
+        "apres": [
+          "Éteignez les foyers résiduels",
+          "Surveillez les reprises de feu"
+        ]
+      },
+      "documents": ["Règlement de débroussaillement", "Carte des zones à risque"],
+      "prevention": {
+        "ppr": false,
+        "pcs": true,
+        "dicrim": true
+      }
+    },
+    {
+      "id": "industriel",
+      "name": "Risque industriel",
+      "category": "technologique",
+      "description": "Plusieurs sites industriels classés SEVESO sont présents dans le département, nécessitant des plans de prévention spécifiques (PPRT).",
+      "alea": {
+        "type": "SEVESO seuil haut et bas",
+        "effets": ["thermique", "toxique", "surpression"]
+      },
+      "communes": ["Poitiers", "Châtellerault"],
+      "consignes": {
+        "pendant": [
+          "Mettez-vous à l'abri dans un bâtiment en dur",
+          "Fermez portes, fenêtres et aérations",
+          "Calfeutrez les ouvertures (serviettes mouillées)",
+          "Coupez ventilation et climatisation",
+          "N'allez pas chercher vos enfants à l'école",
+          "Écoutez la radio pour les consignes"
+        ],
+        "apres": [
+          "Attendez le signal de fin d'alerte",
+          "Aérez longuement les locaux"
+        ]
+      },
+      "sites": [
+        {
+          "nom": "Site SEVESO exemple",
+          "commune": "Poitiers",
+          "type": "seuil haut"
+        }
+      ],
+      "documents": ["PPRT sites SEVESO", "Plans d'urgence"],
+      "prevention": {
+        "ppr": true,
+        "pcs": true,
+        "dicrim": true
+      }
+    },
+    {
+      "id": "tmd",
+      "name": "Transport de matières dangereuses",
+      "category": "technologique",
+      "description": "Les axes routiers (A10, N10), ferroviaires et les canalisations de transport de matières dangereuses traversent le département.",
+      "alea": {
+        "type": "routier, ferroviaire, canalisations",
+        "effets": ["explosion", "incendie", "nuage toxique"]
+      },
+      "communes": ["Axes A10", "N10", "Voies ferrées principales"],
+      "consignes": {
+        "pendant": [
+          "En cas d'accident : éloignez-vous rapidement",
+          "Ne touchez pas aux produits répandus",
+          "Alertez les secours (18 ou 112)",
+          "En cas de nuage : confinement"
+        ],
+        "apres": [
+          "Attendez les consignes des autorités",
+          "Ne consommez pas les produits du jardin potentiellement contaminés"
+        ]
+      },
+      "documents": ["Carte TMD départementale", "Réglementation ADR"],
+      "prevention": {
+        "ppr": false,
+        "pcs": true,
+        "dicrim": true
+      }
+    },
+    {
+      "id": "nucleaire",
+      "name": "Risque nucléaire",
+      "category": "technologique",
+      "description": "La centrale nucléaire de Civaux dispose d'un Plan Particulier d'Intervention (PPI) couvrant les communes dans un rayon de 20 km autour du site.",
+      "alea": {
+        "type": "centrale nucléaire",
+        "site": "Civaux",
+        "perimetre_ppi": "20 km"
+      },
+      "communes": [
+        "Civaux",
+        "Lussac-les-Châteaux",
+        "Chauvigny",
+        "Valdivienne",
+        "Persac",
+        "Bouresse"
+      ],
+      "consignes": {
+        "pendant": [
+          "Mettez-vous à l'abri immédiatement",
+          "Fermez portes, fenêtres et aérations",
+          "Écoutez la radio (France Bleu Poitou 87.6 MHz)",
+          "Prenez les comprimés d'iode UNIQUEMENT sur ordre des autorités",
+          "N'allez pas chercher vos enfants à l'école"
+        ],
+        "evacuation": [
+          "Suivez les itinéraires indiqués",
+          "N'emportez que le strict nécessaire",
+          "Fermez votre habitation"
+        ]
+      },
+      "iode": {
+        "distribution": "Pharmacies du périmètre PPI",
+        "posologie": "Selon l'âge, sur instruction des autorités"
+      },
+      "documents": ["PPI Civaux", "Guide distribution comprimés iode", "Consignes population"],
+      "prevention": {
+        "ppr": false,
+        "pcs": true,
+        "dicrim": true
+      }
+    }
+  ],
+  "communes_exemple": [
+    {
+      "nom": "Poitiers",
+      "code_insee": "86194",
+      "risques": ["inondation", "mouvement-terrain", "seisme", "climatique", "industriel", "tmd"],
+      "pcs": true,
+      "dicrim": true
+    },
+    {
+      "nom": "Châtellerault",
+      "code_insee": "86066",
+      "risques": ["inondation", "mouvement-terrain", "seisme", "climatique", "industriel", "tmd"],
+      "pcs": true,
+      "dicrim": true
+    },
+    {
+      "nom": "Civaux",
+      "code_insee": "86077",
+      "risques": ["mouvement-terrain", "seisme", "climatique", "nucleaire"],
+      "pcs": true,
+      "dicrim": true,
+      "ppi": true
+    }
+  ]
+}
